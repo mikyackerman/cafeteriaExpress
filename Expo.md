@@ -16,13 +16,13 @@
 
 --
 
-### Introduccion.
+### Introducción.
 
 Nuestro objetivo al realizar este proyecto es el de brindar opciones de comida preparada en la cafetería del Instituto Tecnológico De Mexicali para sus clientes en base al tiempo con el que cuentan dentro de su horario, para ello analizaremos el tiempo promedio que se tarda una persona común en trasladarse de cada uno de los edificios hasta la cafetería, así como los tiempos de preparación e ingesta de los alimentos, también consideraremos el tiempo de espera para ser atendido en mostrador con base en la hora estimada de arribo a la cafetería.
 
 ---
 
-###  Problematica.
+###  Problemática.
 
 Nosotros estamos haciendo este proyecto debido a que muchas veces llegamos tarde a nuestras clases por que no calculamos correctamente el tiempo que nos tomara en ir a comprar, recibir nuestro producto, comer y regresar a nuestra clase.
 
