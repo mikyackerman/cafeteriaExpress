@@ -43,12 +43,18 @@ Nos daremos también a la tarea de investigar los tiempos de preparación de alg
 
 #### Camino Directo
 
+Ruta del edificio L a la  cafeteria
 - L>C>L
 ![](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
+
+Ruta de la bibliteca  a la cafeteria
 - B>C>B
 ![](https://github.com/migueshock/cafeteriaExpress/blob/master/ruta%20B%20a%20cefeteria.jpg)
-- A>C>A
-![]()
+
+Ruta de edicio G a la cafeteria
+- G>C>G
+
+![](https://github.com/migueshock/cafeteriaExpress/blob/master/Cafeteria%20a%20edificio%20G.jpg)
 
 
 #### Camino Random
