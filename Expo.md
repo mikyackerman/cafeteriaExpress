@@ -46,7 +46,9 @@ Nos daremos también a la tarea de investigar los tiempos de preparación de alg
 - L>C>L
 ![](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
 - B>C>B
+![](https://github.com/migueshock/cafeteriaExpress/blob/master/ruta%20B%20a%20cefeteria.jpg)
 - A>C>A
+![]()
 
 
 #### Camino Random
