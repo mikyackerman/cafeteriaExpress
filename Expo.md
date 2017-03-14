@@ -44,6 +44,7 @@ Nos daremos también a la tarea de investigar los tiempos de preparación de alg
 #### Camino Directo
 
 - L>C>L
+![](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
 - B>C>B
 - A>C>A
 
