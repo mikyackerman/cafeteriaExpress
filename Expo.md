@@ -50,7 +50,7 @@ Ruta del edificio L a la  cafeteria
 
 Ruta de la bibliteca  a la cafeteria
 
-[Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
+[Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/RUTA%20CAFETERIA%20A%20EDIFICIO%20B.png)
 
 
 Ruta de edicio G a la cafeteria
