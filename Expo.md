@@ -12,7 +12,7 @@
  * Tipos de caminos
  * Tiempos entre edificios
  
-![](https://gitlab.com/mikyackerman/cafeteriaExpress/blob/master/cafe.jpg) 
+![](https://github.com/migueshock/cafeteriaExpress/blob/master/17200739_1635687669835626_231279714_o.jpg) 
 
 --
 
@@ -44,19 +44,18 @@ Nos daremos también a la tarea de investigar los tiempos de preparación de alg
 #### Camino Directo
 
 Ruta del edificio L a la  cafeteria
-- L>C>L
+
 [Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
 
 
 Ruta de la bibliteca  a la cafeteria
-- B>C>B
+
 [Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
-![]
+
 
 Ruta de edicio G a la cafeteria
-- G>C>G
-[Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/Cafeteria%20a%20edificio%20G.jpg)
 
+[Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/cafeteria%20ruta%20g%20al%20cafeteria.jpg)
 
 #### Camino Random
 
