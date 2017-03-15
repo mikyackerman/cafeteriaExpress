@@ -66,10 +66,7 @@ Ruta de edicio G a la cafeteria
 
 ---
 
-#### Tiempos entre edificios
+#### Trabajo a futuro
 
-- Del edifcio L al C aprox. 203 seg.
-- Del edifcio B al C aprox. 270 seg.
-- Del edifcio A al C aprox. 151 seg.
-
-
+Se espera realizar una aplicacion de entrega de comidas dentro a la institucion atravez de una aplicacion movil  ,para ello  necesitaremos un grupo de alumnos para que lleven a cabo dicha actividad  (para ello se lanzara una convocatoria para que con eso puedan liberar  su servicio social ), el proposito seria que los alumnos que deseen hacer el servicio social  en este programa  deberan realizar entregas de comidas a cualquier alumno,docente de la institucion,dicha aplicacion se basara en la anteriror nos mostrara el tiempo de preparacion,y el tiempo de llegada.el usuario podra rastrear donde viene la comida. Para esta aplicacion nos basaremos en uber eats para mas informacion.
+[Click aqui](http://tecnologia.hola.com/uber-eats-tu-comida-sobre-ruedas/3416/)
