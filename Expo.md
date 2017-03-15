@@ -45,7 +45,8 @@ Nos daremos también a la tarea de investigar los tiempos de preparación de alg
 
 Ruta del edificio L a la  cafeteria
 - L>C>L
-![](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
+[Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/ejemplo.jpg)
+
 
 Ruta de la bibliteca  a la cafeteria
 - B>C>B
