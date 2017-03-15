@@ -12,7 +12,7 @@
  * Tipos de caminos
  * Tiempos entre edificios
  
-![](https://gitlab.com/mikyackerman/cafeteriaExpress/blob/master/cafe.jpg) 
+![](https://github.com/migueshock/cafeteriaExpress/blob/master/17200739_1635687669835626_231279714_o.jpg) 
 
 --
 
