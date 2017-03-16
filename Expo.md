@@ -12,8 +12,7 @@
  
 ### Introducción.
 
-Se realizara un software desarrollado en Prolog. El cual está basado en tiempos reales de los cuales un alumno,
-o un docente académico tarda en desplazarse de un edifico, llegando a la cafetería el ingesta de comida etc.
+> - Se realizara un software desarrollado en Prolog. El cual está basado en tiempos reales de los cuales un alumno,o un docente académico tarda en desplazarse de un edifico, llegando a la cafetería el ingesta de comida etc.
 
  
 ---
@@ -22,9 +21,7 @@ o un docente académico tarda en desplazarse de un edifico, llegando a la cafete
 
  
 
-Nuestro objetivo al realizar este proyecto es el ayudar  a nuestros compañeros y docentes académicos brindando los 
-tiempos estimados   de la comida preparada en la cafetería del Instituto Tecnológico De Mexicali, a través de un
-software para evitar el retardo a sus destinos. 
+> - Nuestro objetivo al realizar este proyecto es el ayudar  a nuestros compañeros y docentes académicos brindando los tiempos estimados   de la comida preparada en la cafetería del Instituto Tecnológico De Mexicali, a través de un software para evitar el retardo a sus destinos. 
 
   
 
@@ -32,7 +29,7 @@ software para evitar el retardo a sus destinos. 
 
  
 
-###  Problemática.
+### Problemática.
 
 
 Uno de grandes problemas por lo que elaboramos este proyecto es  debido a que muchas veces llegamos tarde a nuestras clases por que no calculamos correctamente el tiempo que nos tomara en ir a comprar, recibir nuestro producto, comer y regresar a nuestra clase.
