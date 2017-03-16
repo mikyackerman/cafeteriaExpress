@@ -26,6 +26,9 @@ compra(moyete,600).
 compra(tacos,900).
 compra(ensaladas,300).
 
+bano(uno,120).
+bano(dos,600).
+
 % Ejemplo de salon de clases a cafeteria.
 salon_inicial(X):-
 	distancia(X,Y),
@@ -102,13 +105,34 @@ recorrido(SI,TC,F,SF,no):-
 	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
 	write('No alcanzas a llegar a tu clase').
 	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BU = Que fue al baño a hacer del uno.		
+recorrido(SI,TC,F,SF,no,BU):-
+	Fila is 60 * F,
+	bano(BU,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A > 600,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('No alcanzas a llegar a tu clase').
+
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BU = Que fue al baño a hacer del dos.			
+recorrido(SI,TC,F,SF,no,BD):-
+	Fila is 60 * F,
+	bano(dos,BD),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A > 600,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('No alcanzas a llegar a tu clase').	
 	
 	
-	
-	
-	
-	
-	
+
 	
 	
 	
