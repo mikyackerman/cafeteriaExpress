@@ -12,52 +12,25 @@
  
 ### Introducción.
 
-> - La finalidad de este proyecto es administrar los tiempos para llegar a la hora exacta a clases sin que nos perjudique. Saber que tipo de alimentos podemos consumir sobre todo si contamos con tiempo limitado. Debido al tiempo que duramos en transladarnos de un edifcio a otro, ya sean alumnos o docentes, surge la necesidad de realizar este proyecto de CafeteriaExpress, el cual consta de un software desarrollado en Prolog, este está basado en tiempos y distancias reales para poder elegir del menù algo que se ajuste a nuestro tiempo disponible para consumir algùn tipo alimento de la cafeteria del Instituto Tecnologico de Mexicali.
-
-
- 
----
-
-### Objetivo
-
- 
-
-> - Nuestro objetivo al realizar este proyecto es el ayudar  a nuestros compañeros y docentes académicos brindando los tiempos estimados   de la comida preparada en la cafetería del Instituto Tecnológico De Mexicali, a través de un software para evitar el retardo a sus destinos. 
-
-  
+> - El proyecto esta orientado a la cafeteria del Instituto Tecnologico de Mexicali, con el proposito de brindarles a todos companeros y docentes el tiempo que les lleva el adquirir sus alimentos, asi tambien como la distancia, y el tiempo que les lleva al realizarlo.
 
 ---
 
- 
+### Planteamiento del problema
 
-### Problemática.
-
-
-Uno de grandes problemas por lo que elaboramos este proyecto es  debido a que muchas veces llegamos tarde a nuestras clases por que no calculamos correctamente el tiempo que nos tomara en ir a comprar, recibir nuestro producto, comer y regresar a nuestra clase.
-
-Para ello tomamos el tiempo promedio que se tarda una persona común en trasladarse de cada uno de losedificios hasta la cafetería, así como los tiempos de preparación e ingesta de los alimentos, también consideraremos el tiempo de espera para ser atendido en mostrador con base en la hora estimada de arribo a la cafetería. 
-
- 
+> - Uno de los grandes problemas que tenemos la mayoria de los alumnos  es el que no medimos el tiempo que nos lleva al realizar una actividad. En este caso nos enfocamos  en el area de la  cafeteria ya que es importante para nuestra rutina del diario.  Como por ejemplo muchas de las veces no tenemos el tiempo  suficiente para poder ingerir algun alimento en un dia de escuela, " O tenemos poco tiempo o tenemos mucho tiempo" ,para evitarnos ese  tipo de  problemas de tiempo. 
 
 ---
 
- 
+### Desarrollo 
 
-### Desarrollo
-
- 
-Nos dimos también a la tarea de investigar los tiempos de preparación de algunos de los alimentos más comunes que son consumidos en la cafetería, así como el tiempo de ingesta, Para ello tomamos el tiempo promedio que se tarda una persona común en trasladarse de cada uno de los edificios hasta la cafetería, así como los tiempos de preparación e ingesta de los alimentos, también consideraremos el tiempo de espera para ser atendido en mostrador con base en la hora estimada de arribo a la cafetería. También consideraremos que algunos alimentos pueden ser consumidos al trasladarse por lo que a ellos les asignaremos como tiempo de ingesta 0 ya que no es necesario permanecer en la cafetería para consumirlos,también se consideró los  tiempos estimados de espera de acuerdo a la hora en que ingresemos a la cafetería ya que existen momentos en el día en que contamos con un cuello de botella en mostrador.
-
- 
+> - Se llevo a cabo un calculo de todas las rutas que nos conducen de un edificio hacia la cafeteria, asi como tambien se tomo informacion de cuanto tiempo dura un alimento es ser preparado, el tiempo de la fila, cuanto tiempo hacen al consumirlo, asi como tambien cuanto tiempo les lleva el trasladarse. Una vez teniendo dichos resultados realizamos un software basado en Prolog para asi poder evitar la llegada tarde a una clase o bien administrar nuestro tiempo.
 
 ---
-
- 
 
 ### Tipos de caminos
 
  
-
 #### Camino Directo
 
  
@@ -67,7 +40,7 @@ cafetería
 
  
 
-[Click aqui para visualizar la Ruta](https://github.com/mikyackerman/cafeteriaExpress/blob/master/RUTACAFERTERIA%20AL%20(L).png)
+![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/RUTACAFERTERIA%20AL%20(L).png)
 
  
  
@@ -76,23 +49,19 @@ Ruta de edificio G a la cafetería
 
  
 
-[Click aqui para visualizar la Ruta](https://github.com/migueshock/cafeteriaExpress/blob/master/cafeteria%20ruta%20g%20al%20cafeteria.jpg)
+![](https://github.com/migueshock/cafeteriaExpress/blob/master/cafeteria%20ruta%20g%20al%20cafeteria.jpg)
 
+ 
  
 
 ---
 
  
 
-#### Camino Random
 
  
 
-- L>C>B
-
-- B>C>A
-
-- A>C>F
+#### Camino Random
 
  
 
@@ -105,11 +74,9 @@ Ruta de edificio G a la cafetería
 #### Trabajo a futuro
 
  
-
 Se espera realizar una aplicación de entrega de comidas dentro a la institución atreves de una aplicación móvil  ,para ello necesitaremos un grupo de alumnos para que lleven a cabo dicha actividad  (para ello se lanzara una convocatoria para que con eso puedan liberar su servicio social ), el propósito seria que los alumnos que deseen hacer el servicio social  en este programa  deberán realizar entregas de comidas a cualquier alumno, docente de la institución ,dicha aplicación se basara en la anterior nos mostrara el tiempo de preparación el tiempo de llegada. El usuario podrá rastrear donde viene la comida. Para esta aplicación nos basaremos en uber está para más información.
 
  
 
 [Click
 aqui](http://tecnologia.hola.com/uber-eats-tu-comida-sobre-ruedas/3416/)
-
