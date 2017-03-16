@@ -164,7 +164,7 @@ recorrido(SI,TC,F,SF,no,BU):-
 % SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos.			
 recorrido(SI,TC,F,SF,si,BD):-
 	Fila is 60 * F,
-	bano(dos,BD),
+	bano(BD,W),
 	distancia(SI,X),
 	compra(TC,Y),
 	distancia(SF,Z),
@@ -178,7 +178,7 @@ recorrido(SI,TC,F,SF,si,BD):-
 % SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos.		
 recorrido(SI,TC,F,SF,si,BD):-
 	Fila is 60 * F,
-	bano(BU,W),
+	bano(BD,W),
 	distancia(SI,X),
 	compra(TC,Y),
 	distancia(SF,Z),
@@ -192,7 +192,7 @@ recorrido(SI,TC,F,SF,si,BD):-
 % SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos.			
 recorrido(SI,TC,F,SF,no,BD):-
 	Fila is 60 * F,
-	bano(dos,BD),
+	bano(BD,W),
 	distancia(SI,X),
 	compra(TC,Y),
 	distancia(SF,Z),
@@ -206,7 +206,7 @@ recorrido(SI,TC,F,SF,no,BD):-
 % SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos.		
 recorrido(SI,TC,F,SF,no,BD):-
 	Fila is 60 * F,
-	bano(BU,W),
+	bano(BD,W),
 	distancia(SI,X),
 	compra(TC,Y),
 	distancia(SF,Z),
@@ -215,6 +215,134 @@ recorrido(SI,TC,F,SF,no,BD):-
 	A > 600,
 	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
 	write('No alcanzas a llegar a tu clase').
+	
+
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BU = Que fue al baño a hacer del uno, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio.		
+recorrido(SI,TC,F,SF,si,BU,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BU,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A < 4200,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('Si alcanzas a llegar a tu clase').	
+	
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BU = Que fue al baño a hacer del uno, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,si,BU,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BU,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A > 4200,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('No alcanzas a llegar a tu clase').	
+	
+
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BU = Que fue al baño a hacer del uno, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,no,BU,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BU,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A < 600,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('Si alcanzas a llegar a tu clase').	
+	
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BU = Que fue al baño a hacer del uno, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,no,BU,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BU,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A > 600,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('No alcanzas a llegar a tu clase').		
+	
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,si,BD,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BD,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A > 4200,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('No alcanzas a llegar a tu clase').	
+	
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,si,BD,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BD,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A < 4200,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('Si alcanzas a llegar a tu clase').	
+
+	
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos,CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,no,BD,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BD,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A < 600,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('Si alcanzas a llegar a tu clase').	
+
+
+	
+% SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre, BD = Que fue al baño a hacer del dos, CB = Cambio de bano, por si estaban cerrados los banios donde fue y se fue a otro edificio..		
+recorrido(SI,TC,F,SF,no,BD,CB):-
+	Fila is 60 * F,
+	distancia(CB,V),
+	bano(BD,W),
+	distancia(SI,X),
+	compra(TC,Y),
+	distancia(SF,Z),
+	A is V + W + X + Y + Z + Fila,
+	Minutos is A/60,
+	A > 600,
+	write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
+	write('No alcanzas a llegar a tu clase').		
+		
+	
+
+
+	
 
 
 	
