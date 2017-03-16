@@ -9,16 +9,16 @@
 ### Introducción.
 
 
-Se realizara un software desarrollado en Prolog el cual esta basado enn tiempos reales de los cuales un alumno,o un docente academico tarda en dezplasarse de un edifico, llegando a la cafeteria el ingesto de comida etc.
+> - Se realizara un software desarrollado en Prolog el cual esta basado enn tiempos reales de los cuales un alumno,o un docente academico tarda en dezplasarse de un edifico, llegando a la cafeteria el ingesto de comida etc.
 
 
-### Objetivo
+### Objetivo.
 
 
-El objetivo de este proyecto es ayudar  nuestros compañeros y docentes de la institucion a  evitar llegar tarde a nuestros destinos creando un software que nos da el tiempo casi exacto que tenemos de trasladarnos de un edifico a otro,asi como el tiempo de preparacion de alimentos e ingesta, evitando asi no llegar tarde a nuestro destino.
+> - El objetivo de este proyecto es ayudar  nuestros compañeros y docentes de la institucion a  evitar llegar tarde a nuestros destinos creando un software que nos da el tiempo casi exacto que tenemos de trasladarnos de un edifico a otro,asi como el tiempo de preparacion de alimentos e ingesta, evitando asi no llegar tarde a nuestro destino.
 
 
-Nuestro objetivo al realizar este proyecto es el ayudar  a nuestros compañeros y docentes academicos brindando los  tiempos estimados   de la comida preparada en la cafetería del Instituto Tecnológico De Mexicali ,  
+ 
 
 ---
 
