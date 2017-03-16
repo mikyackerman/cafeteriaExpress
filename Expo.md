@@ -12,7 +12,8 @@
  
 ### Introducción.
 
-> - Se realizara un software desarrollado en Prolog. El cual está basado en tiempos reales de los cuales un alumno,o un docente académico tarda en desplazarse de un edifico, llegando a la cafetería el ingesta de comida etc.
+> - La finalidad de este proyecto es administrar los tiempos para llegar a la hora exacta a clases sin que nos perjudique. Saber que tipo de alimentos podemos consumir sobre todo si contamos con tiempo limitado. Debido al tiempo que duramos en transladarnos de un edifcio a otro, ya sean alumnos o docentes, surge la necesidad de realizar este proyecto de CafeteriaExpress, el cual consta de un software desarrollado en Prolog, este está basado en tiempos y distancias reales para poder elegir del menù algo que se ajuste a nuestro tiempo disponible para consumir algùn tipo alimento de la cafeteria del Instituto Tecnologico de Mexicali.
+
 
  
 ---
