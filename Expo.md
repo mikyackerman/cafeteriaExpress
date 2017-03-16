@@ -35,18 +35,14 @@
 
  
 
-Ruta del edificio L a la 
-cafetería
+Ruta del edificio L a la cafetería
 
  
 
 ![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/RUTACAFERTERIA%20AL%20(L).png)
 
- 
- 
 
 Ruta de edificio G a la cafetería
-
  
 
 ![](https://github.com/migueshock/cafeteriaExpress/blob/master/cafeteria%20ruta%20g%20al%20cafeteria.jpg)
@@ -57,14 +53,16 @@ Ruta de edificio G a la cafetería
 ---
 
  
-
-
- 
-
 #### Camino Random
 
- 
+Ruta del L a la cafetería y de la  cafetería al G 
 
+![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/trazolg.png)
+
+
+Ruta del U a la cafetería y de la cafetería al D 
+
+![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/trazoud.png)
  
 
 ---
