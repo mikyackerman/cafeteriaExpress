@@ -1,4 +1,4 @@
-ñ
+
 
 # Cafetería Express
 
@@ -39,13 +39,13 @@ Ruta del edificio L a la cafetería
 
  
 
-![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/RUTACAFERTERIA%20AL%20(L).png)
+![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/LaC.png)
 
 
 Ruta de edificio G a la cafetería
  
 
-![](https://github.com/migueshock/cafeteriaExpress/blob/master/cafeteria%20ruta%20g%20al%20cafeteria.jpg)
+![](https://github.com/mikyackerman/cafeteriaExpress/blob/master/GaC.png)
 
  
 ---
