@@ -1,4 +1,4 @@
-
+ñ
 
 # Cafetería Express
 
@@ -12,7 +12,7 @@
  
 ### Introducción.
 
-> - El proyecto esta orientado a la cafeteria del Instituto Tecnologico de Mexicali, con el proposito de brindarles a todos companeros y docentes el tiempo que les lleva el adquirir sus alimentos, asi tambien como la distancia, y el tiempo que les lleva al realizarlo.
+> - El proyecto esta orientado a la cafeteria del Instituto Tecnologico de Mexicali, con el proposito de brindarles a todos compañeros y docentes el tiempo que les lleva el adquirir sus alimentos, asi tambien como la distancia, y el tiempo que les lleva al realizarlo.
 
 ---
 
@@ -64,7 +64,7 @@ Ruta del U a la cafetería y de la cafetería al D
 
 ---
 
-#### Trabajo a futuro
+### Trabajo a futuro
 
 Se espera realizar una aplicación de entrega de comidas dentro a la institución atreves de una aplicación móvil  ,para ello necesitaremos un grupo de alumnos para que lleven a cabo dicha actividad  (para ello se lanzara una convocatoria para que con eso puedan liberar su servicio social ), el propósito seria que los alumnos que deseen hacer el servicio social  en este programa  deberán realizar entregas de comidas a cualquier alumno, docente de la institución ,dicha aplicación se basara en la anterior nos mostrara el tiempo de preparación el tiempo de llegada. El usuario podrá rastrear donde viene la comida. Para esta aplicación nos basaremos en uber está para más información.
 
@@ -88,6 +88,7 @@ respuestas calculara un tiempo estimado en segundos o minutos y este le avisará
 Estos son un par de ejemplos de los casos posibles que un alumno podria tener al querer saber si puede llegar a clase a tiempo:
 
 
+```
 SI = Salon Inicial, TC = Tipo de compra, F = Tamaño de la fila, SF = Salon Final, no = no hay hora libre.
 
 > recorrido(SI,TC,F,SF,no):-
@@ -104,3 +105,5 @@ Y al final de cada caso un mensaje que nos avise si llegamos a tiempo o no:
 
 > write('Tardas '), write(A), write(' segundos o '), write(Minutos), write(' minutos en llegar de donde te encuentras a tu clase'), nl,
 > write('No alcanzas a llegar a tu clase').
+
+```
